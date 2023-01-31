@@ -1,0 +1,15 @@
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\scriptures_csharp.exe
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\scriptures_csharp.deps.json
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\scriptures_csharp.runtimeconfig.json
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\scriptures_csharp.dll
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\ref\scriptures_csharp.dll
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\bin\Debug\net6.0\scriptures_csharp.pdb
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.csproj.AssemblyReference.cache
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.AssemblyInfoInputs.cache
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.AssemblyInfo.cs
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.csproj.CoreCompileInputs.cache
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.dll
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\ref\scriptures_csharp.dll
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.pdb
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures_csharp\obj\Debug\net6.0\scriptures_csharp.genruntimeconfig.cache
