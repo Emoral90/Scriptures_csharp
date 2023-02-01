@@ -1,8 +1,13 @@
 using System;
 using System.IO;
 
+// Class for only handling IO file functions
 public class File
 {
+    // Attributes
+    string scriptures_text;
+    string scriptures_ref;
+
     public void read_from_file()
     {
         try
@@ -10,14 +15,19 @@ public class File
             // Open the text file using a stream reader.
             using (var sr = new StreamReader("scriptures.txt"))
             {
-                // Read the stream as a string, and write the string to the console.
-                Console.WriteLine(sr.ReadToEnd());
+
+                // Read one line at a time and display it to the console
+                while (!sr.EndOfStream){
+                    string[] lines = sr.ReadLine().Split("|");
+                    scriptures_text = lines[0];
+                    scriptures_ref = lines[1];
+                    Console.WriteLine(scriptures_text);
+                }
             }
         }
-        catch (IOException e)
+        catch (FileNotFoundException)
         {
             Console.WriteLine("The file could not be read:");
-            Console.WriteLine(e.Message);
         }
     }
 }
