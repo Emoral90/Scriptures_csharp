@@ -11,7 +11,7 @@ public class Program
 
         f.read_from_file();
 
-        f.write_to_file(someText);
+        // f.write_to_file(someText);
 
         // Console.WriteLine($"This is the scripture text: {f.get_scrip_text()}");
         // Console.WriteLine("===================================================================================");
