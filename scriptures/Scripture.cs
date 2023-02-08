@@ -10,8 +10,8 @@ public class File
     string scriptures_ref;
 
 
-    // function to read from file
-    public void read_from_file()
+    // function to print references
+    public void print_ref()
     {
         try
         {
@@ -27,12 +27,35 @@ public class File
 
                     string[] words = scriptures_text.Split(" ");
 
-                    // Display the whole line of text for each scriptur
-                    int word_count = scriptures_text.Length;
-                    for (int i=0; i<word_count; i++)
-                    {
-                        Console.WriteLine(words[i]);
-                    }
+                    Console.WriteLine(scriptures_text);
+                }
+            }
+        }
+        catch (FileNotFoundException)
+        {
+            Console.WriteLine("The file could not be read");
+        }
+
+    }
+
+    // function to print scriptures
+    public void print_scrip()
+    {
+        try
+        {
+            // Open the text file using a stream reader.
+            using (var sr = new StreamReader(file_path))
+            {
+                // Read one line at a time and display it to the console
+                while (!sr.EndOfStream)
+                {
+                    string[] lines = sr.ReadLine().Split("|");
+                    scriptures_text = lines[0];
+                    scriptures_ref = lines[1];
+
+                    string[] words = scriptures_text.Split(" ");
+
+                    Console.WriteLine(scriptures_text);
                 }
             }
         }

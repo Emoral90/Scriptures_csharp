@@ -3,18 +3,38 @@ using System.IO;
 
 public class Program
 {
-    static string someText = "==Here is some text to be added after the original text==";
+    // Attributes
+    // static bool quit; 
     static void Main()
     {
         // Constructors
         File f = new File();
 
-        f.read_from_file();
+        string user_choice = "";
 
-        // f.write_to_file(someText);
+        // Console.WriteLine(user_choice);
 
-        // Console.WriteLine($"This is the scripture text: {f.get_scrip_text()}");
-        // Console.WriteLine("===================================================================================");
-        // Console.WriteLine($"This is the scripture reference: {f.get_scrip_ref()}");
+        while (user_choice != "quit")
+        {
+            Console.WriteLine("Main Menu");
+            Console.WriteLine("==========================");
+            Console.WriteLine("1 Display all scriptures");
+            Console.WriteLine("2 Display all references");
+            Console.WriteLine("Type `quit` to end program");
+            Console.WriteLine("==========================");
+
+            user_choice = Console.ReadLine();
+            
+            if (user_choice == "1")
+            {
+                f.print_scrip();
+            }
+
+            if (user_choice == "2")
+            {
+                f.print_ref();
+            }
+        }
+        
     }
 }
