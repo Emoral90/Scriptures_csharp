@@ -10,3 +10,10 @@ To help someone memorize scripture easier by writing a program that displays the
 7. The program should continue prompting the user and hiding more words until all words in the scripture are hidden.
 8. When all words in the scripture are hidden, the program should end.
 9. When selecting the random words to hide, for the core requirements, you can select any word at random, even if the word was already hidden. (As a stretch challenge, try to randomly select from only those words that are not already hidden.)
+
+## Class design
+Will include: 
+* Program
+* Reference
+* Mask
+* JSON
