@@ -9,6 +9,8 @@ public class File
     string scriptures_text;
     string scriptures_ref;
 
+
+    // function to read from file
     public void read_from_file()
     {
         try
@@ -40,21 +42,22 @@ public class File
         }
     }
 
-    public void write_to_file(string text)
-    {
-        try
-        {
-            using (StreamWriter sw = new StreamWriter(file_path, true))
-            {
-                for (int i=0; i<3; i++)
-                {
-                    sw.WriteLine(text);
-                }
-            }
-        }
-        catch (FileNotFoundException)
-        {
-            Console.WriteLine("The file could cot be read");
-        }
-    }
+    // function to write to file
+    // public void write_to_file(string text)
+    // {
+    //     try
+    //     {
+    //         using (StreamWriter sw = new StreamWriter(file_path, true))
+    //         {
+    //             for (int i=0; i<3; i++)
+    //             {
+    //                 sw.WriteLine(text);
+    //             }
+    //         }
+    //     }
+    //     catch (FileNotFoundException)
+    //     {
+    //         Console.WriteLine("The file could cot be read");
+    //     }
+    // }
 }
