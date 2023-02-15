@@ -1,15 +1,27 @@
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.IO;
-class JSON
+
+class myJSON
 {
     //Attributes
     private string filePath = "NT.json";
+    private string jsonScriptures;
+    // Deserialize json into a dictionary
+    private Dictionary<string, object> dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(file_path)
 
     // Methods
     public void getScriptures()
     {
-        var jsonStr = File.ReadAllText(filePath);
-        var jsonObj = JObject.Parse(jsonStr);
+        // // Read and display NT.json as a string
+        // using (StreamReader sr = new StreamReader(filePath))
+        // {
+        //     jsonScriptures = sr.ReadToEnd();
+        //     Console.WriteLine(jsonScriptures);
+        // }
 
-        Console.WriteLine(jsonObj);
+        string ref = dict["reference"].ToString();
+        Console.WriteLine(ref);
+
     }
 }
