@@ -8,7 +8,8 @@ public class Program
     static void Main()
     {
         // Constructors
-        File f = new File();
+        // Scripture s = new Scripture();
+        myJSON mj = new myJSON();
 
         string user_choice = "";
 
@@ -27,12 +28,12 @@ public class Program
             
             if (user_choice == "1")
             {
-                f.print_scrip();
+                mj.getScriptures();
             }
 
             if (user_choice == "2")
             {
-                f.print_ref();
+
             }
         }
         
