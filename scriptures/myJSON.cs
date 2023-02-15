@@ -6,22 +6,22 @@ class myJSON
 {
     //Attributes
     private string filePath = "NT.json";
-    private string jsonScriptures;
+    static string jsonScriptures;
+
     // Deserialize json into a dictionary
-    private Dictionary<string, object> dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(file_path)
+    private Dictionary<string, object> dict = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonScriptures);
 
     // Methods
     public void getScriptures()
     {
-        // // Read and display NT.json as a string
-        // using (StreamReader sr = new StreamReader(filePath))
-        // {
-        //     jsonScriptures = sr.ReadToEnd();
-        //     Console.WriteLine(jsonScriptures);
-        // }
+        // Read Json data from a file
+        using (StreamReader sr = new StreamReader(filePath))
+        {
+            jsonScriptures = sr.ReadToEnd();
+        }
 
-        string ref = dict["reference"].ToString();
-        Console.WriteLine(ref);
+        string reference = dict["reference"].ToString();
+        Console.WriteLine(reference);
 
     }
 }
