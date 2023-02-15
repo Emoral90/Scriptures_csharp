@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KlafWXuunNuax479C/xbEcXtw1G/ac4bdWSZVuE3fPRB0kArl+9qyDB0kabCqktON7/kA5iWdF4+4EiTDKbt2A==",
+  "dgSpecHash": "JAbTxPhjPsTnktPcmNYh5yf5inIUmiE7+dDvZgASFXc+OLm9kcIpxrkEuveVNRctd/a/ajB0bSXDAOV59p6Xgw==",
   "success": true,
   "projectFilePath": "C:\\Users\\lengu\\Desktop\\School\\CSE 210 Programming with classes (c#)\\Scriptures_csharp\\scriptures\\scriptures_csharp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lengu\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -28,3 +28,5 @@ C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_c
 C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures\bin\Debug\net6.0\ref\scriptures_csharp.dll
 C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures\bin\Debug\net6.0\scriptures_csharp.pdb
 C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures\obj\Debug\net6.0\scriptures_csharp.genruntimeconfig.cache
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lengu\Desktop\School\CSE 210 Programming with classes (c#)\Scriptures_csharp\scriptures\obj\Debug\net6.0\scriptures_csharp.csproj.CopyComplete
